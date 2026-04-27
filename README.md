@@ -63,7 +63,7 @@ By the final review, this README should clearly show:
 
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
-| Riddhi Jhadhav | `[Designing ]`       |`[sensors/hardware]`|   `[diagram,ppt]`
+| Riddhi Jadhav | `[Designing ]`       |`[sensors/hardware]`|   `[diagram,ppt]`
 | Jui Adke  | `[Electronics / Integration]`   | `[Coding]`     | `[ Hardware,integration` ]   |
 | Riya Balani |     ` [ Documentation  ] ` | `[system design] `| `[Material handling,hardware] `|
 | Ayush Koli|    `[Electronics / testing] `            | `[Coding]  ` |`[coding,hardware]`
