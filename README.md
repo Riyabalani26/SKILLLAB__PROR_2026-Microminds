@@ -266,12 +266,12 @@ Add a sketch with labels showing:
 
 | Component                 | Quantity | Purpose                               |
 | ------------------------- | --------:| ------------------------------------- |
-| `[ESP32]`                 | `1`      | `[Main controller]`                   |
-| `[L298N Motor Driver]`    | `1`      | `[Control Motors]`                    |
-| `[BO Motors]`             | `2`      | `[Rotate wheels]`                     |
-| `[Buck Converter]`        | `1`      | `[Power ESP32]`                       |
-| `[Li Ion Battery Pack]`   | `2`      | `[Power]`                             |
-| `[Projector]`             | `1`      | `[Display obstacles]`                 |
+| `[Raspberry Pi Pico]`                 | ``      | `[Main controller]`                   |
+| `[DHT 11]`    | `1`      | `[Temprature sensor]`                    |
+| `[HC-05 Blutooth module]`             | ``      | `[Bluetooth connection with external device]`                     |
+| `[PPG PULSE sensor]`        | `1`      | `[detects pulse rate]`                       |
+| `[3.7v battery]`   | ``      | `[used to charge system]`                             |
+| `[]`             |    | `[Display obstacles]`                 |
 | `Camera (Webcam / Phone)` | `1`      | `[Tracks car position using markers]` |
 
 ## 8.2 Wiring Plan
@@ -504,10 +504,10 @@ Expected outcomes:
 
 | HOUR   | Planned Goal   | What Actually Happened | What Changed   | Next Steps     |
 | ------ | -------------- | ---------------------- | -------------- | -------------- |
-| Hour 1 | `[Idea finalization]` | `[Write here]`         | `[Write here]` | `[Write here]` |
-| Week 2 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
-| Week 3 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
-| Week 4 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Hour 1 | `[Idea finalization]` | `[Finalized ideas and features]`  | `[Added human safety (pulse) concept]` | `[Started component selection]` |
+| Hour 2 | `[Documentation]` | `[Team name,geotag photo,team member details]`         | `[NA]` | `[Testing of components]` |
+| Hour 3 | `[testing]` | `[Connected basic sensors and tested outputs]`         | `[Adjusted wires n pins]` | `[Integrate remaining sensors]` |
+| Hour 4 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 
 ---
 
