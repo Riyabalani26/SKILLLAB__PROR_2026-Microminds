@@ -302,10 +302,10 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Question         | Response                                                                                                                                          |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Power source     | `Battery (Li-ion pack)`                                                                                                                           |
-| Voltage required | `~6–8.4V for motors (via driver), stepped down to 5V for ESP32 (buck converter)`                                                                  |
-| Current concerns | `Motors can draw high current under load, which may cause voltage drops affecting ESP32 and WiFi stability`                                       |
-| Safety concerns  | `Avoid over-discharging Li-ion batteries, ensure proper voltage regulation, prevent short circuits, and secure wiring to avoid loose connections` |
+| Power source     | `Main system: 5V DC adapter. Pulse system: 3.7V flat Li-ion battery`                                                                                                                           |
+| Voltage required | `Main system uses stable 5V input. Pulse unit uses 3.7V battery with regulated output for controller`                                                                  |
+| Current concerns | `MQ sensor and buzzer may draw higher current in main unit. Pulse unit needs stable battery supply for reliable sensing`                                       |
+| Safety concerns  | `Avoid short circuits, prevent battery over-discharge, secure wearable wiring` |
 
 ---
 
@@ -513,7 +513,7 @@ Expected outcomes:
 | Hour 2 | `[Documentation]` | `[Team name,geotag photo,team member details]`         | `[NA]` | `[Testing of components]` |
 | Hour 3 | `[testing-1]` | `[Connected basic sensors and tested outputs]`         | `[Adjusted wires n pins]` | `[Integrate remaining sensors]` |
 | Hour 4 | `[Documentation]` | `[project description and component list]`         | `[-]` | `[block daigrams]` |
-| Hour 5 | `[Logic development]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Hour 5 | `[Logic development]` | `[Developed basic decision conditions]`         | `[Write here]` | `[Write here]` |
 | Hour 6 | `[Integration]` | `[Combined sensors, logic, and automation]`         | `[Fixed communication delays]` | `[Begin alert system setup]` |
 | Hour 7| `[Communication]` | `[Implemented Bluetooth/Wi-Fi alerts]`         | `[Modified alert triggers]` | `[Perform system testing]` |
 | Hour 7 | `[Documentation]` | `[Wiring plan and circuit daigram]`         | `[Write here]` | `[Write here]` |
