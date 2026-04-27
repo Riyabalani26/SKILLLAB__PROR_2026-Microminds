@@ -70,7 +70,9 @@ By the final review, this README should clearly show:
 ## 1.3 Project Title : "Rakshak Smart Safety Network"
 
 
-<img width="1600" height="1131" alt="image" src="https://github.com/Riyabalani26/SKILLLAB__PROR_2026-Microminds/blob/main/images/Microminds%20team%20members.jpeg" />
+<img width="1600" height="1131" alt="image" src="https://github.com/Riyabalani26/SKILLLAB__PROR_2026-Microminds/blob/main/images/Microminds%20team%20members.jpeg" /> 
+
+youtube link: https://youtu.be/EVVfhTohh8M?si=ZBwPEDx-q924nIBG
 
 ## 1.4 One-Line Pitch
 
@@ -231,11 +233,10 @@ Include:
 Add an early sketch of the full idea.
 
 **Insert image below:**  
-`[Upload image and link here]`
 
-Example:
 
-```md
+
+<img width="867" height="1156" alt="image" src="   https://github.com/Riyabalani26/SKILLLAB__PROR_2026-Microminds/blob/main/images/WhatsApp%20Image%202026-04-27%20at%206.35.01%20PM%20(1).jpeg" />
 
 ```
 
