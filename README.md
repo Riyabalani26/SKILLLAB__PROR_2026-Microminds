@@ -380,12 +380,13 @@ Suggested sequence:
 
 | Item                             | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec               | Why This Choice?          |
 | -------------------------------- | --------:| ------- | ------------ | --------------:| ----------------------------- | ------------------------- |
-| `[Raspberry Pi Pico]`                        | `1`      | `Yes`   | `No`         | `0`            | `38 Pin ESP32`                | `[To control components]` |
-| `[MQ series]`                 | `[1]`    | `[Yes]` | `[No]`       | `0`            | `[LN296]`                     | `[To drive both motors]`  |
-| `[battery]`          | `[2]`    | `[Yes]`  | `[No]`      | `[150]`        | `[BO Motors and 6 cm wheels]` | `[high torque motors]`    |
-| `[Buzzer]`               | `[1]`    | `[Yes]`  | `[No]`      | `[75]`         |                               |                           |
-| `[pulse sensros]` | `[1]`    | `[Yes]`  | `[No]`      | `[200]`        |                               |                           |
-| `[Bluetooth module]`| `[1]`  | `[Yes]`  | `[NO]`    | `[0]`  | `[]`    
+| `[Raspberry Pi Pico]`                        | `[1]`      | `Yes`   | `No`         | `380`            | `RP2350, dual-core 150MHz, 520KB SRAM, 4MB Flash, 3.3V GPIO`                | `[To control components]` |
+| `[MQ series]`                 | `[1]`    | `[Yes]` | `[No]`       | `300`            | `[5V gas sensor module, analog/digital output, smoke/LPG/CO detection]`                     | `[To drive both motors]`  |
+| `[Adapter]`          | `[1]`    | `[Yes]`  | `[No]`      | `[250]`        | `[5V DC adapter]` | `[high torque motors]`    |
+| `[Buzzer]`               | `[1]`    | `[Yes]`  | `[No]`      | `[40]`         | `[-]`                               |                           |
+| `[pulse sensros]` | `[1]`    | `[Yes]`  | `[No]`      | `[270]`        |         `[Heartbeat sensor, analog output, 3V–5V supply, used to measure pulse rate.]`                      |                           |
+| `[Bluetooth module]`| `[1]`  | `[Yes]`  | `[NO]`    | `[300]`  | `[Bluetooth UART module, 5–10 m range, 3.6–6V supply.]` 
+|`[Fire sensor]`| `[1]`  | `[Yes]`  | `[NO]`    | `[120]`  | `[ IR flame sensor, LM393 comparator, adjustable sensitivity]` 
 ## 11.2 Material Justification
 
 Explain why you selected your main materials and components.
