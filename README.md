@@ -703,6 +703,7 @@ What did you learn about:
 - iteration?
 
 **Response:**  
+The designing part was challenging because we had limited materials available. However, building a complete system with the components we had was a valuable experience. It taught us to think creatively and use resources wisely.The most important factor was that we had clarity about the product we wanted to build. Because of this, we were able to choose suitable components and stay focused during development.Working with our teammates was also a good learning experience. It taught us collaboration, communication, and problem-solving during hardware integration. We also understood how users would interact with wearable pulse monitoring and wall-mounted safety systems.Overall, this project taught us that with clear planning, teamwork, and creative thinking, limited resources can still create an effective solution.
 
 
 ## 18.4 If You Had One More hour
