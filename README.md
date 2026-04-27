@@ -553,6 +553,8 @@ Expected outcomes:
 
 What is the single biggest uncertainty in your project at this stage?
 
+The biggest uncertainty right now is how accurately all sensors will work together in real time after full integration. Sometimes individual sensors work properly, but when connected together there may be power issues, noise in readings, Bluetooth delay, or unstable values. We need final testing to make sure the complete system runs smoothly and gives correct alerts.
+
 **Response:**  
 
 
