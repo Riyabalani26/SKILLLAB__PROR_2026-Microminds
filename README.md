@@ -63,15 +63,14 @@ By the final review, this README should clearly show:
 
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
-| Riddhi Jhadhav | `[Electronics / Coding / App ]` |  | `Documentation, Gift of Gab `|
-| Jui Adke  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
-| Riya Balani |                                    | Documentation  |
-| Ayush Koli|
-## 1.3 Project Title
+| Riddhi Jhadhav | `[Designing ]` |                |sensors/hardware|
+| Jui Adke  | `[Electronics / Integration]`   | `[Coding]`     | `Material Handling, Hardware`    |
+| Riya Balani |   [System desgin]                  | Documentation  |
+| Ayush Koli|   [Electronics / testing]            |Coding|
+## 1.3 Project Title : "Rakshak Smart Safety Network"
 
-"Rakshak Smart Safety Network"
 
-<img width="1600" height="1131" alt="image" src="images/Microminds team members.jpeg" />
+<img width="1600" height="1131" alt="image" src="https://github.com/Riyabalani26/SKILLLAB__PROR_2026-Microminds/blob/main/images/Microminds%20team%20members.jpeg" />
 
 ## 1.4 One-Line Pitch
 
