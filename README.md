@@ -63,10 +63,10 @@ By the final review, this README should clearly show:
 
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
-| Riddhi Jhadhav | `[Designing ]` |                |sensors/hardware|
-| Jui Adke  | `[Electronics / Integration]`   | `[Coding]`     | `Material Handling, Hardware`    |
-| Riya Balani |   [System desgin]                  | Documentation  |
-| Ayush Koli|   [Electronics / testing]            |Coding|
+| Riddhi Jhadhav | `[Designing ]`       |`[sensors/hardware]`|   `[diagram,ppt]`
+| Jui Adke  | `[Electronics / Integration]`   | `[Coding]`     | `[, Hardware,integration` ]   |
+| Riya Balani |   [System desgin]                  | Documentation  | `[Material handling,hardware|`
+| Ayush Koli|   [Electronics / testing]            |Coding| `[coding,hardware]`
 ## 1.3 Project Title : "Rakshak Smart Safety Network"
 
 
@@ -270,7 +270,7 @@ Add a sketch with labels showing:
 | `[DHT 11]`    | `1`      | `[Temprature sensor]`                    |
 | `[HC-05 Blutooth module]`             | `1`      | `[Bluetooth connection with external device]`                     |
 | `[PPG PULSE sensor]`        | `1`      | `[detects pulse rate]`                       |
-| `[3.7v battery]`               |   `2`   | `[used to charge system]'       |
+| `[3.7v battery]`               |   `2`   |    `[charge the system]`     |
 | `[MQ 4]`             |    `1` | `[Detects methane]`                 |
 | `[MQ 5]` | `1`      | `[Detects LPG/hydrogen/natural gas]` |
 | `[MQ 7]`  | `1`    |    `[Detects carbon monoxide]`|
@@ -385,7 +385,7 @@ Suggested sequence:
 | `[battery]`          | `[2]`    | `[No]`  | `[Yes]`      | `[150]`        | `[BO Motors and 6 cm wheels]` | `[high torque motors]`    |
 | `[Buzzer]`               | `[1]`    | `[No]`  | `[Yes]`      | `[75]`         |                               |                           |
 | `[pulse sensros]` | `[1]`    | `[No]`  | `[Yes]`      | `[200]`        |                               |                           |
-
+| `[Bluetooth module]`| `[1]`  | `[NO]`  | `[NO]`    | `[0]`  | `[]`    
 ## 11.2 Material Justification
 
 Explain why you selected your main materials and components.
