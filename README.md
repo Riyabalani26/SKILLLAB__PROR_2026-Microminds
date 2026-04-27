@@ -253,9 +253,9 @@ Add a sketch with labels showing:
 
 | Dimension        | Value   |
 | ---------------- | ------- |
-| Length           | `16 cm` |
-| Width            | `16 cm` |
-| Height           | `8 cm`  |
+| Length           | `20 cm` |
+| Width            | `10 cm` |
+| Height           | `10 cm`  |
 | Estimated weight | `400 g` |
 
 ---
