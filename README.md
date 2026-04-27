@@ -140,8 +140,14 @@ What makes this project special is that it adds human awareness to hazard detect
 
 Describe exactly how a user will use the project.Make it a story
 **Response:**  
+Ravi, a factory supervisor, starts his shift and activates the Rakshak Smart Safety Network using the control panel. The system begins monitoring the environment in real time, checking for gas leaks, fire, temperature changes, and human presence.
 
-                                                  |
+As Ravi works nearby, the system detects a slight gas leak through the MQ sensor. Instead of immediately triggering a false alarm, it cross-verifies the data with temperature and flame sensors. Since the temperature is normal and no fire is detected, the system classifies it as a gas leak and sends a low-priority alert.
+
+Later, the situation becomes critical when both gas levels and temperature rise rapidly, and the flame sensor is triggered. At the same time, the system detects Ravi’s presence and monitors his pulse. When it identifies an abnormal heart rate, it escalates the situation to a high-priority emergency.
+
+Immediately, an alarm is triggered, alerts are sent to the concerned authorities via the bluetooth module(on phone), and the ventilation system is activated to release harmful gases.                                        
+                                                
 
 
 
@@ -380,13 +386,14 @@ Suggested sequence:
 
 | Item                             | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec               | Why This Choice?          |
 | -------------------------------- | --------:| ------- | ------------ | --------------:| ----------------------------- | ------------------------- |
-| `[Raspberry Pi Pico]`                        | `[1]`      | `Yes`   | `No`         | `380`            | `RP2350, dual-core 150MHz, 520KB SRAM, 4MB Flash, 3.3V GPIO`                | `[To control components]` |
-| `[MQ series]`                 | `[1]`    | `[Yes]` | `[No]`       | `300`            | `[5V gas sensor module, analog/digital output, smoke/LPG/CO detection]`                     | `[To drive both motors]`  |
-| `[Adapter]`          | `[1]`    | `[Yes]`  | `[No]`      | `[250]`        | `[5V DC adapter]` | `[high torque motors]`    |
+| `[Raspberry Pi Pico]`                        | `[1]`      | `Yes`   | `No`         | `380`            | `RP2350, dual-core 150MHz, 520KB SRAM, 4MB Flash, 3.3V GPIO`                | `[To control all sensors and process data efficiently]` |
+| `[MQ series]`                 | `[1]`    | `[Yes]` | `[No]`       | `300`            | `[5V gas sensor module, analog/digital output, smoke/LPG/CO detection]`                     | `[MQ5 - LPG, methane   MQ7 - Detects CO, MQ135 - smoke and other gas detection. ]`  |
+| `[Adapter]`          | `[1]`    | `[Yes]`  | `[No]`      | `[250]`        | `[5V DC adapter]` | `[To provide stable continuous power to main system]`    |
 | `[Buzzer]`               | `[1]`    | `[Yes]`  | `[No]`      | `[40]`         | `[-]`                               |                           |
-| `[pulse sensros]` | `[1]`    | `[Yes]`  | `[No]`      | `[270]`        |         `[Heartbeat sensor, analog output, 3V–5V supply, used to measure pulse rate.]`                      |                           |
-| `[Bluetooth module]`| `[1]`  | `[Yes]`  | `[NO]`    | `[300]`  | `[Bluetooth UART module, 5–10 m range, 3.6–6V supply.]` 
-|`[Fire sensor]`| `[1]`  | `[Yes]`  | `[NO]`    | `[120]`  | `[ IR flame sensor, LM393 comparator, adjustable sensitivity]` 
+| `[pulse sensros]` | `[1]`    | `[Yes]`  | `[No]`      | `[270]`        |         `[Heartbeat sensor, analog output, 3V–5V supply, used to measure pulse rate.]`                      |     `[low cost, compact, easy to use with rp2040 ]`                        |
+| `[Bluetooth module]`| `[1]`  | `[Yes]`  | `[NO]`    | `[300]`  | `[Bluetooth UART module, 5–10 m range, 3.6–6V supply.]` |  `[low cost, simple UART interface ]`
+|`[Fire sensor]`| `[1]`  | `[Yes]`  | `[NO]`    | `[120]`  | `[ IR flame sensor, LM393 comparator, adjustable sensitivity]` |   `[compact size, 3-4 pin with rp, very fast response on fire
+]`
 ## 11.2 Material Justification
 
 Explain why you selected your main materials and components.
@@ -450,12 +457,12 @@ Include:
 
 | Area                 | Main Owner | Support Owner |
 | -------------------- | ---------- | ------------- |
-| Concept              | `[Gopal]`  | `[Kader]`    |
-| Electronics          | `[]`       | `[]`     |
-| Coding               | `[]`       | `[]`     |
-| Mechanical build     | `[]`       | `[]`    |
-| Testing              | `[]`       | `[]`    |
-| Documentation        | `[]`       | `[]`     |
+| Concept              | `[JUI]`       |      `[RIDDHI,RIYA,AYUSH]`    |
+| Electronics          | `[JUI]`       | `[AYUSH]`     |
+| Coding               | `[JUI]`       | `[AYUSH]`     |
+| Mechanical build     | `[RIDDHI]`       | `[RIYA]`    |
+| Testing              | `[AYUSH]`       | `[JUI]`    |
+| Documentation        | `[RIYA]`       | `[AYUSH]`     |
 
 ---
 
