@@ -641,21 +641,25 @@ SKILLLAB__PROR_2026-Microminds/images/pulse sensor.jpeg at main · Riyabalani26/
 
 ## 17.1 Final Description
 
-Describe the final version of your project.
+Our final project is an Rakshak Smart safety network with a wearable pulse monitoring unit. The wall-mounted main system uses MQ gas sensors, DHT11, and flame sensor to detect gas leakage, temperature, humidity, and fire hazards. The wearable unit (pulse system) monitors the worker’s pulse rate continuously. All collected data is sent through Bluetooth to a mobile device for live monitoring, while the buzzer gives instant alerts during dangerous conditions.
 
 **Response:**  
 
 
 ## 17.2 What Works Well
 
+The sensors are able to detect gas, flame, and environmental changes properly. The pulse sensor successfully reads human pulse values. Bluetooth communication works well for sending live data to mobile. The buzzer alert system responds quickly when threshold conditions are reached. The combination of wearable and fixed safety unit gives a complete monitoring solution.
+
 
 
 ## 17.3 What Still Needs Improvement
-
+The system still needs better casing and cleaner wiring for practical deployment. Sensor calibration can be improved for more accurate readings. Bluetooth range is limited, so a better web server or IoT cloud system can be added for long-distance monitoring. The wearable unit can be made smaller and more comfortable.
 
 ## 17.4 What Changed From the Original Plan
 
-How did the project change from the initial idea?
+what are existing technology already haved 
+using shrike lite the pulse system has pulse sensor and buzzer and if the pulse goes down the threshold value then buzzer will buzz 
+using shrike lite the pulse system has pulse sensor and buzzer and if the pulse goes down the threshold value then buzzer will buzz . give me code for it
 
 **Response:**  
 
