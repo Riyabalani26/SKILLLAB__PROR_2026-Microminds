@@ -55,7 +55,7 @@ By the final review, this README should clearly show:
 
 # 1. Team Identity
 
-## 1.1 Studio / Group Name
+## 1.1 MICROMINDS
 
 `Project^2`
 
@@ -63,9 +63,10 @@ By the final review, this README should clearly show:
 
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
-| `Gopalakrishnan` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
-| `KAder Shaikh`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
-
+| Riddhi Jhadhav | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
+| Jui Adke  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
+| Riya Balani |
+| Ayush Koli|
 ## 1.3 Project Title
 
 `"Project Project"`
