@@ -64,9 +64,9 @@ By the final review, this README should clearly show:
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
 | Riddhi Jhadhav | `[Designing ]`       |`[sensors/hardware]`|   `[diagram,ppt]`
-| Jui Adke  | `[Electronics / Integration]`   | `[Coding]`     | `[, Hardware,integration` ]   |
-| Riya Balani |   [System desgin]                  | Documentation  | `[Material handling,hardware|`
-| Ayush Koli|   [Electronics / testing]            |Coding| `[coding,hardware]`
+| Jui Adke  | `[Electronics / Integration]`   | `[Coding]`     | `[ Hardware,integration` ]   |
+| Riya Balani |     ` [ Documentation  ] ` | `[system design] `| `[Material handling,hardware] `|
+| Ayush Koli|    `[Electronics / testing] `            | `[Coding]  ` |`[coding,hardware]`
 ## 1.3 Project Title : "Rakshak Smart Safety Network"
 
 
@@ -382,10 +382,10 @@ Suggested sequence:
 | -------------------------------- | --------:| ------- | ------------ | --------------:| ----------------------------- | ------------------------- |
 | `[Raspberry Pi Pico]`                        | `1`      | `Yes`   | `No`         | `0`            | `38 Pin ESP32`                | `[To control components]` |
 | `[MQ series]`                 | `[1]`    | `[Yes]` | `[No]`       | `0`            | `[LN296]`                     | `[To drive both motors]`  |
-| `[battery]`          | `[2]`    | `[No]`  | `[Yes]`      | `[150]`        | `[BO Motors and 6 cm wheels]` | `[high torque motors]`    |
-| `[Buzzer]`               | `[1]`    | `[No]`  | `[Yes]`      | `[75]`         |                               |                           |
-| `[pulse sensros]` | `[1]`    | `[No]`  | `[Yes]`      | `[200]`        |                               |                           |
-| `[Bluetooth module]`| `[1]`  | `[NO]`  | `[NO]`    | `[0]`  | `[]`    
+| `[battery]`          | `[2]`    | `[Yes]`  | `[No]`      | `[150]`        | `[BO Motors and 6 cm wheels]` | `[high torque motors]`    |
+| `[Buzzer]`               | `[1]`    | `[Yes]`  | `[No]`      | `[75]`         |                               |                           |
+| `[pulse sensros]` | `[1]`    | `[Yes]`  | `[No]`      | `[200]`        |                               |                           |
+| `[Bluetooth module]`| `[1]`  | `[Yes]`  | `[NO]`    | `[0]`  | `[]`    
 ## 11.2 Material Justification
 
 Explain why you selected your main materials and components.
