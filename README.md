@@ -246,8 +246,8 @@ Add a sketch with labels showing:
 - output elements.
 
 **Insert image below:**  
-`[Upload image and link here]`
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/95637f31-b4e7-4427-a9e1-4b63fbeb0ac5" />
+
+<img width="1600" height="1200" alt="image" src="https://github.com/Riyabalani26/SKILLLAB__PROR_2026-Microminds/blob/main/images/block%20diagram.jpeg" />
 
 ## 7.3 Approximate Dimensions
 
