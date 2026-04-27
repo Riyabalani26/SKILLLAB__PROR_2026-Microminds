@@ -63,15 +63,13 @@ By the final review, this README should clearly show:
 
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
-| Riddhi Jhadhav | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
+| Riddhi Jhadhav | `[Electronics / Coding / App ]` |  | `Documentation, Gift of Gab `|
 | Jui Adke  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
-| Riya Balani |
+| Riya Balani |                                    | Documentation  |
 | Ayush Koli|
 ## 1.3 Project Title
 
-`"Project Project"`
-
-`(because Project-or)`
+"Rakshak Smart Safety Network"
 
 <img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/c64bfbd4-b3b7-43d9-83ad-c203a5aa11bc" />
 
