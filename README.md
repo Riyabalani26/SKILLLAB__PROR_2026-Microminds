@@ -630,6 +630,10 @@ Suggested images:
 - app screenshot,
 - final build.
 - <img width="960" height="1280" alt="https://github.com/Riyabalani26/SKILLLAB__PROR_2026-Microminds/blob/main/images/hardware.jpeg" />
+- <img width="960" height="1280" alt="
+SKILLLAB__PROR_2026-Microminds/images/pulse sensor.jpeg at main · Riyabalani26/SKILLLAB__PROR_2026-Microminds
+" />
+- <img width="960" height="1280" alt="SKILLLAB__PROR_2026-Microminds/images/WhatsApp Image 2026-04-27 at 4.42.56 PM.jpeg at main · Riyabalani26/SKILLLAB__PROR_2026-Microminds" />
 
 
 
