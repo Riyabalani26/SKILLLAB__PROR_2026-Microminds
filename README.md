@@ -572,8 +572,8 @@ What is the single biggest uncertainty in your project at this stage?
 
 | Date          | Problem Found                         | Type         | What You Tried                                | Result               | Next Action                                    |
 | ------------- | ------------------------------------- | ------------ | --------------------------------------------- | -------------------- | ---------------------------------------------- |
-| `18th April`  | `Car not balancing properly`          | `Mechanical` | `Add low-friction caster support to one side` | `Worked`             | `improve caster structure`                     |
-
+| `27th April`  | `Analog value of MQ sensor kept changing`          | `Mechanical` | `we gave a dynamic baseline` | `improvement`             | `improve structure`      |
+| `27th April`  | `we were not able to work with 4 MQ sensors`|     `Mechanical` |   `we used only 3 sensors becuase pico has only 3 ADC pins` |
 
 ## 15.3 Playtesting Notes
 
@@ -669,6 +669,7 @@ What slowed you down?
 How well did you manage time, tasks, and responsibilities?
 
 **Response:**  
+The main part of the project to integrate the components well which our team managed well through this project. The pulse system part was also handled well by our teammates. The Bluetooth was a bit of confusion and hard for testing has it slowed down our progress. Also the designing part was a bit of complicated that how we  can manage all this components to placed in one box. The tasks were already distributed after 30 mins after the project started. The time management was quite decent by our teammates and tasks assigned to each of them were done perfectly
 
 
 ## 18.2 Technical Reflection
@@ -682,6 +683,8 @@ What did you learn about:
 - integration?
 
 **Response:**  
+We learnt a lot of things from the short hackathon conducted. We got to learn more about the MQ sensors as we didn't had the knowledge that how many Mq gas sensors are in the market. Many more sensors we learnt about pulse sensor, LM393 fire sensor, DHT11. We also got to learn about the Bluetooth module and how it works with the application called as Bluetooth serial communication. The integration and also their we certain decisions that we made but deleting or not to include particular sensor as per the GPIO pins in shrike lite due to which we learn that not all products and projects should have many sensors and how to manage components  using the specific microcontroller board.
+
 
 
 ## 18.3 Design Reflection
