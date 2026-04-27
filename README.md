@@ -74,7 +74,8 @@ By the final review, this README should clearly show:
 
 ## 1.4 One-Line Pitch
 
-`A projected, fully customizable time portal where engineering education is done through PUBG battlefield in the comfort of our home`
+“An intelligent safety system that not only detects hazards but understands human presence and condition to respond with the right level of emergency action.”
+
 
 ## 1.5 Expanded Project Idea
 
@@ -85,7 +86,8 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`A projected and fully customizable time portal can transform engineering education into an immersive PUBG-style battlefield experience from the comfort of home. In this environment, students can learn engineering concepts by entering a virtual battlefield where challenges, obstacles, and missions are designed around real technical problems. Instead of passively studying theory, learners actively apply concepts such as electronics, coding, sensors, robotics, mechanics, and system design to complete missions, solve problems, and progress through different levels. This approach makes engineering education more interactive, engaging, and practical by combining gaming, simulation, and hands-on problem-solving in a familiar and exciting format.`
+This project is a multi-sensor safety system designed to detect and respond to real-world hazards in a smarter way than traditional alarms. It continuously monitors environmental conditions like gas leaks, fire, temperature, and hazard detection, and uses a decision engine to verify threats instead of reacting to a single trigger. It has a special innovation that it senses integration of human awareness—by tracking pulse and presence, the system can determine whether someone is actually in danger and adjust its response accordingly.
+The system creates an experience of intelligent, responsive safety rather than just triggering alarm, the system evaluates the severity of a situation and responds with appropriate actions like triggering alerts, controlling ventilation, or escalating to emergency-level warnings. It combines embedded hardware (Raspberry Pi Pico),analog and digital sensors (MQ series, DHT11, PIR, flame, pulse), and communication technologies such as Bluetooth, all working together through a structured logic system that enables real-time monitoring and intelligent decision-making.
 
 ---
 
@@ -124,7 +126,10 @@ List what inspired the project.
 
 What makes your project original?
 
-**Response:**  
+**Response:** 
+Most safety systems stop at detecting the hazard, but hazards only matter because of how they affect the human body—and that part is usually ignored. For example, gas leaks reduce oxygen and can cause dizziness or unconsciousness, fire and heat can lead to burns or breathing issues, and smoke can quickly damage the lungs. The severity of these effects depends on whether a person is present and how their body is reacting in that moment.
+What makes this project special is that it adds human awareness to hazard detection. By monitoring pulse along with presence, the system doesn’t just detect danger—it checks if the human body is actually under stress. This allows it to distinguish between a general warning and a real emergency, making the response smarter, more accurate, and far more meaningful.
+
 
 
 ---
@@ -497,9 +502,9 @@ Expected outcomes:
 
 ## 13.2  Update Log
 
-| Week   | Planned Goal   | What Actually Happened | What Changed   | Next Steps     |
+| HOUR   | Planned Goal   | What Actually Happened | What Changed   | Next Steps     |
 | ------ | -------------- | ---------------------- | -------------- | -------------- |
-| Week 1 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Hour 1 | `[Idea finalization]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 | Week 2 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 | Week 3 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 | Week 4 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
