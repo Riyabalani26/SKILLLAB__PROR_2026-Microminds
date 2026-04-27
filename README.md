@@ -711,6 +711,7 @@ The designing part was challenging because we had limited materials available. H
 What would you improve next?
 
 **Response:**  
+If we had one more hour, we would first arrange all the loose wiring properly and fix the sensors strongly so no connection issue comes during demo. We would calibrate the MQ gas sensor and pulse sensor for getting more accurate readings. We would set proper threshold values for fire, gas and pulse alerts so buzzer only activates in real danger condition. We would also improve the Bluetooth mobile display by showing more clear labels and warning messages. We could have also created a better web server which broadcast the live sensor data for remote monitoring. Lastly, we would test the full system again in real conditions to check all sensors and alerts are working smoothly.
 
 ` `
 
