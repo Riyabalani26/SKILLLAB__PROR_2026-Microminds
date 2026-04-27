@@ -289,11 +289,23 @@ Add a sketch with labels showing:
 Describe the main electrical connections.
 
 **Response:**  
-`The ESP32 is connected to the motor driver (L298N) using four GPIO pins (18,19; 22,23) to control motor direction (IN1, IN2, IN3, IN4). Two PWM-capable pins (ENA and ENB; 25 and 26) are connected to control the speed of each motor.
+The Raspberry Pi Pico acts as the central controller and is interfaced with multiple sensors and actuators to implement a multi-layer safety and monitoring system.
 
-The motors are connected to the output terminals of the motor driver. The motor driver is powered directly by the battery pack (higher voltage), while the ESP32 receives regulated 5V from the buck converter.
+Three MQ-series gas sensors (MQ-7, MQ-5, and MQ-135) are connected via their analog output pins (AO) to the Pico’s ADC pins (GP26, GP27, and GP28 respectively) to monitor variations in gas concentration. These sensors are powered using the 5V VBUS pin, and all share a common ground. No pull-up resistors are required as they provide analog outputs.
 
-All components share a common ground to ensure stable operation. The projector and camera are connected to the laptop, which handles tracking and game logic separately.`
+The flame detection unit based on the LM393 flame sensor module is connected using its digital output (DO) to GPIO GP14, enabling real-time flame detection. The module includes an onboard comparator and pull-up circuitry, so no external pull-up resistor is required.
+
+An infrared (IR) sensor is connected to GPIO GP17 to detect object presence or intrusion. Since most IR modules include internal signal conditioning and pull-up resistors, no external pull-up is required.
+
+The ultrasonic sensor (HC-SR04) is interfaced using two GPIO pins: TRIG connected to GP18 and ECHO connected to GP19. As the ECHO pin outputs 5V logic, a voltage divider using two resistors is implemented to step down the signal to 3.3V before connecting to the Pico input pin.
+
+The environmental sensing module, DHT11, is connected to GP16 using a single-wire digital communication interface. A 10kΩ pull-up resistor is connected between the DATA pin and VCC to ensure reliable communication and stable logic levels.
+
+An active buzzer is connected to GPIO GP15, where the positive terminal is driven by the GPIO pin and the negative terminal is connected to ground, enabling audible alerts during hazardous conditions. A current-limiting resistor may be added if required.
+
+Optionally, a Bluetooth module (HC-05) is connected via UART communication, where TX is connected to GP1 and RX is connected to GP0 through a voltage divider, ensuring safe voltage levels for the module.
+
+All components share a common ground, ensuring proper reference voltage and stable system operation across all module
 
 ## 8.3 Circuit Diagram
 
@@ -476,7 +488,7 @@ Expected outcomes:
 
 - [x] Idea finalized
 - [x] Core interaction decided
-- [x] Sketches made
+- [ ] Sketches made
 - [x] BOM completed
 - [x] Purchase needs identified
 - [ ] Key uncertainty identified
@@ -487,7 +499,7 @@ Expected outcomes:
 Expected outcomes:
 
 - [x] Electronics tests completed
-- [ ] CAD / structure planning completed
+- [x] CAD / structure planning completed
 - [ ] App UI started if needed
 - [x] Mechanical concept tested
 - [x] Main subsystems partially working
