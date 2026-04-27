@@ -266,14 +266,18 @@ Add a sketch with labels showing:
 
 | Component                 | Quantity | Purpose                               |
 | ------------------------- | --------:| ------------------------------------- |
-| `[Raspberry Pi Pico]`                 | ``      | `[Main controller]`                   |
+| `[Raspberry Pi Pico]`     | `2`      | `[Main controller]`                   |
 | `[DHT 11]`    | `1`      | `[Temprature sensor]`                    |
-| `[HC-05 Blutooth module]`             | ``      | `[Bluetooth connection with external device]`                     |
+| `[HC-05 Blutooth module]`             | `1`      | `[Bluetooth connection with external device]`                     |
 | `[PPG PULSE sensor]`        | `1`      | `[detects pulse rate]`                       |
-| `[3.7v battery]`   | ``      | `[used to charge system]`                             |
-| `[]`             |    | `[Display obstacles]`                 |
-| `Camera (Webcam / Phone)` | `1`      | `[Tracks car position using markers]` |
-
+| `[3.7v battery]`               |   `2`   | `[used to charge system]'       |
+| `[MQ 4]`             |    `1` | `[Detects methane]`                 |
+| `[MQ 5]` | `1`      | `[Detects LPG/hydrogen/natural gas]` |
+| `[MQ 7]`  | `1`    |    `[Detects carbon monoxide]`|
+|  `[MQ 135]` | `1` |   `[Detecs hazard gases]`  |
+|  `[Buzzer]`  | `1`|      `[alert system]`      |
+| `[LM3 93]`   | `1` |   `[Senses flame]`|
+|   
 ## 8.2 Wiring Plan
 
 Describe the main electrical connections.
@@ -376,11 +380,11 @@ Suggested sequence:
 
 | Item                             | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec               | Why This Choice?          |
 | -------------------------------- | --------:| ------- | ------------ | --------------:| ----------------------------- | ------------------------- |
-| `[ESP32]`                        | `1`      | `Yes`   | `No`         | `0`            | `38 Pin ESP32`                | `[To control components]` |
-| `[Motor Driver]`                 | `[1]`    | `[Yes]` | `[No]`       | `0`            | `[LN296]`                     | `[To drive both motors]`  |
-| `[DC Motors and wheel]`          | `[2]`    | `[No]`  | `[Yes]`      | `[150]`        | `[BO Motors and 6 cm wheels]` | `[high torque motors]`    |
-| `[Buck Converter]`               | `[1]`    | `[No]`  | `[Yes]`      | `[75]`         |                               |                           |
-| `[Li-ion batteries with holder]` | `[1]`    | `[No]`  | `[Yes]`      | `[200]`        |                               |                           |
+| `[Raspberry Pi Pico]`                        | `1`      | `Yes`   | `No`         | `0`            | `38 Pin ESP32`                | `[To control components]` |
+| `[MQ series]`                 | `[1]`    | `[Yes]` | `[No]`       | `0`            | `[LN296]`                     | `[To drive both motors]`  |
+| `[battery]`          | `[2]`    | `[No]`  | `[Yes]`      | `[150]`        | `[BO Motors and 6 cm wheels]` | `[high torque motors]`    |
+| `[Buzzer]`               | `[1]`    | `[No]`  | `[Yes]`      | `[75]`         |                               |                           |
+| `[pulse sensros]` | `[1]`    | `[No]`  | `[Yes]`      | `[200]`        |                               |                           |
 
 ## 11.2 Material Justification
 
@@ -507,7 +511,12 @@ Expected outcomes:
 | Hour 1 | `[Idea finalization]` | `[Finalized ideas and features]`  | `[Added human safety (pulse) concept]` | `[Started component selection]` |
 | Hour 2 | `[Documentation]` | `[Team name,geotag photo,team member details]`         | `[NA]` | `[Testing of components]` |
 | Hour 3 | `[testing]` | `[Connected basic sensors and tested outputs]`         | `[Adjusted wires n pins]` | `[Integrate remaining sensors]` |
-| Hour 4 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Hour 4 | `[]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Hour 5 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Hour 6 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Hour 7 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Hour 8 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Hour 9 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 
 ---
 
